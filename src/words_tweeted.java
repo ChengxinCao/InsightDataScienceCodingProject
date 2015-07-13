@@ -9,7 +9,7 @@ import java.util.TreeMap;
 
 
 public class words_tweeted {
-	public static void main(String[] args) throws IOException{
+    public static void main(String[] args) throws IOException{
 	//get input file directory and output file directory
 	String input = args[0];
 	String output = args[1];
@@ -44,14 +44,14 @@ public class words_tweeted {
     	
         Iterator<String> it = data.keySet().iterator();      
         while(it.hasNext()){
-        	String key = it.next();	
+            String key = it.next();	
             String content = key;
             for(int i=0; i<35-key.length(); i++){
             	content += " ";	
             }
             content += data.get(key)+"\n";
             bw.write(content);	   
-		}
+	}
         bw.close();
         return;
 	}
