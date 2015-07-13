@@ -28,11 +28,11 @@ public class words_tweeted {
         	
         	for(int i=0; i<arr.length; i++){
         		if(data.containsKey(arr[i])){
-					data.put(arr[i], data.get(arr[i])+1);
-				}
-				else{
-					data.put(arr[i], 1);
-				}
+				data.put(arr[i], data.get(arr[i])+1);
+			}
+			else{
+				data.put(arr[i], 1);
+			}
         	}
     	}
         reader.close();
