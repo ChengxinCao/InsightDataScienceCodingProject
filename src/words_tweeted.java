@@ -10,12 +10,12 @@ import java.util.TreeMap;
 
 public class words_tweeted {
 	public static void main(String[] args) throws IOException{
-		//get input file directory and output file directory
-		String input = args[0];
-		String output = args[1];
+	//get input file directory and output file directory
+	String input = args[0];
+	String output = args[1];
 		
-		//read file by line with BufferdReader
-		File fileIn = new File(input);
+	//read file by line with BufferdReader
+	File fileIn = new File(input);
         BufferedReader reader = new BufferedReader(new FileReader(fileIn));
         String tweet = null;
         
