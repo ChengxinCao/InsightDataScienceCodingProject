@@ -15,12 +15,5 @@ Insight Data Science Coding Project
 <p>operating system: max OS X</p>
 
 <h1>Instructions for the algorithm</h1>
-1. words_tweeted.java implemented function 1:
-<p></p>
-2. median_unique.java implemented function 2:
-
-3. hottest_word.java implemented function 3:
-
-4. hottest_hashtag.java implemented function 4:
-5. 
-<p></p>
+1. I use TreeMap to store the word and the times it has been tweeted, because in JAVA, TreeMap is an ordered map(in alphabet order)
+2. I use regular expression to split the tweet to get each word and then count the times it has been tweeted.
